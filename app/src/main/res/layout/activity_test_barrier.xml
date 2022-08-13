@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".barrier.TestBarrierActivity">
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="left" />
+
+    <TextView
+        android:id="@+id/tv_test1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="text1"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="@id/barrier_test"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_test2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="text2"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/barrier_test"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_test3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="text3"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="@id/barrier_test"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
