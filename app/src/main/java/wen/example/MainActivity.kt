@@ -1,8 +1,9 @@
-package wen.example.constraintlayout
+package wen.example
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import wen.example.constraintlayout.R
 import wen.example.constraintlayout.chain.TestChainActivity
 
 class MainActivity : AppCompatActivity() {

@@ -17,7 +17,7 @@
             android:name="wen.example.constraintlayout.chain.TestChainActivity"
             android:exported="false" />
         <activity
-            android:name="wen.example.constraintlayout.MainActivity"
+            android:name="wen.example.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
