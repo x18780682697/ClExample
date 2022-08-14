@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <GridLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:columnCount="2">
+
+        <Button
+            android:layout_columnWeight="1"
+            android:text="1" />
+
+        <Button
+            android:layout_columnWeight="1"
+            android:text="2" />
+
+        <Button
+            android:layout_columnWeight="1"
+            android:text="3" />
+
+        <Button
+            android:layout_columnWeight="1"
+            android:text="4" />
+
+        <Button
+            android:layout_columnWeight="1"
+            android:text="5" />
+
+        <Button
+            android:layout_columnWeight="1"
+            android:text="6" />
+
+    </GridLayout>
+
+</RelativeLayout>

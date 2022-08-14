@@ -13,6 +13,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ClExample"
         tools:targetApi="31">
+
+        <activity
+            android:name="wen.example.gridlayout.TestGridLayoutActivity"
+            android:exported="false" />
         <activity
             android:name=".align.TestAlignViewActivity"
             android:exported="false" />
@@ -43,6 +47,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>
