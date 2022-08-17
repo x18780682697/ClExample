@@ -8,9 +8,10 @@
     tools:context=".TestConstraintLayoutActivity">
 
     <TextView
+        android:textSize="20sp"
         android:id="@+id/tv_center"
         android:layout_width="100dp"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:background="@color/red"
         android:gravity="center"
         android:text="center"
@@ -20,9 +21,10 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:textSize="20sp"
         android:id="@+id/tv_top"
         android:layout_width="100dp"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:layout_marginBottom="30dp"
         android:background="@color/gray"
         android:gravity="center"
@@ -32,9 +34,10 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
+        android:textSize="20sp"
         android:id="@+id/tv_bottom"
         android:layout_width="100dp"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:layout_marginTop="30dp"
         android:background="@color/gray"
         android:gravity="center"
@@ -44,9 +47,10 @@
         app:layout_constraintTop_toBottomOf="@+id/tv_center" />
 
     <TextView
+        android:textSize="20sp"
         android:id="@+id/tv_left"
         android:layout_width="100dp"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:layout_marginEnd="30dp"
         android:background="@color/gray"
         android:gravity="center"
@@ -56,9 +60,10 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:textSize="20sp"
         android:id="@+id/tv_right"
         android:layout_width="100dp"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:layout_marginStart="30dp"
         android:background="@color/gray"
         android:gravity="center"
