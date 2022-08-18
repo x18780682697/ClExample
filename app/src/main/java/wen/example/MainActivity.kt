@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import wen.example.constraintlayout.R
+import wen.example.constraintlayout.TestConstraintLayoutActivity
 import wen.example.constraintlayout.chain.TestChainActivity
 
 class MainActivity : AppCompatActivity() {
@@ -11,6 +12,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        startActivity(Intent(this, TestChainActivity::class.java))
+        startActivity(Intent(this, TestConstraintLayoutActivity::class.java))
     }
 }
