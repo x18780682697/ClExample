@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.45" />
+        app:layout_constraintGuide_percent="0.35" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline_test2"
@@ -29,14 +29,13 @@
         android:background="@color/gray"
         android:text="text1"
         android:textSize="40sp"
-        app:layout_constraintEnd_toEndOf="@id/guideline_test1"
-        app:layout_constraintTop_toTopOf="@id/guideline_test2" />
+        app:layout_constraintStart_toEndOf="@id/guideline_test1"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/tv_test2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
         android:background="@color/red"
         android:text="text2"
         android:textSize="60sp"
@@ -47,7 +46,7 @@
         android:id="@+id/tv_test3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="50dp"
         android:background="@color/green"
         android:text="text3"
         android:textSize="35sp"
