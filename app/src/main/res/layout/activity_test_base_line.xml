@@ -21,11 +21,32 @@
         android:id="@+id/tv_test2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="200dp"
+        android:layout_marginStart="30dp"
         android:background="@color/gray"
         android:text="text2"
         android:textSize="30sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/tv_test1"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toEndOf="@id/tv_test1" />
+
+    <Button
+        android:id="@+id/btn_test1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="btn1"
+        android:textSize="50sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_test1" />
+
+    <Button
+        android:id="@+id/btn_test2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:text="btn2"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@id/btn_test1"
+        app:layout_constraintStart_toEndOf="@id/tv_test1"
+        app:layout_constraintTop_toBottomOf="@id/tv_test1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
